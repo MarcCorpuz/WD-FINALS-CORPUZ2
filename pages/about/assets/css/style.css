@@ -1,26 +1,6 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: "Outfit", sans-serif;
-  }
-  
-  .all-content{
-    background: #f7f5f2;
-  }
-  html ::-webkit-scrollbar-track{
-    background: transparent;
-  }
-  html ::-webkit-scrollbar-thumb{
-    background: #dbc1ac;
-    border-radius: 10px;
-  }
-  html ::-webkit-scrollbar{
-    width: 10px;
-  }
-  
-  /* navbar start */
-  #navbar {
+
+/* navbar start */
+#navbar {
     background-color: #28180c;
     transition: background-color 0.3s ease;
     padding-left: 20px;
@@ -228,7 +208,7 @@
   #about {
     padding: 50px 0;
     height: 100vh;
-    background-image: url(../img/BG3.png);
+    background-image: url(../../../../assets/img/BG3.png);
     background-repeat: no-repeat;
     background-size: cover;
   }
@@ -533,7 +513,7 @@
   
   /* contact start */
   #contact {
-  background-image: url(../img/BG2.png);
+  background-image: url(../../../../assets/img/BG2.png);
   width: 100%;
   height: 100vh;
   background-repeat: no-repeat;
